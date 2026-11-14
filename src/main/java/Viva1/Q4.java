@@ -42,7 +42,7 @@ public class Q4 {
                 break;
             }
             if (charged[choice - 1]){
-                System.out.println("Error: This vehicle has already been charged.");
+                System.out.println("Error: This vehicle has already been charged.\n");
                 continue;
             }
             while(true){
